@@ -1,0 +1,26 @@
+
+1. Boilerplate one practice
+This code is failing
+✕ h1 tag next should be h4 tag (214 ms)
+✕ First h4 tag content (211 ms)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevation Academy</title>
+</head>
+<body>
+    <h1>HTML</h1>
+    <h4>Struture of webpage</h4>
+    <p>HTML is the standard markup language for Web pages. With HTML you can create your own Website.</p>
+    <h1>CSS</h1>
+    <h4>Styling of the webpage</h4>
+    <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML</p>
+    <h1>JavaScript</h1>
+    <h4>Functionality of webpage</h4>
+    <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.</p>
+</body>
+</html>

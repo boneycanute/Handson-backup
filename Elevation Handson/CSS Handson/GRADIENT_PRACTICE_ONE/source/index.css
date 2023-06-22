@@ -1,0 +1,67 @@
+#heading {
+    text-align: center;
+}
+
+#parent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.section {
+    margin: 30px;
+}
+
+
+/* Linear Gradient */
+
+.linear-gradient {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to right, #FF0000, #FFFF00, #FFA500);
+}
+
+
+/* Repeating Linear Gradient */
+
+.repeating-linear-gradient {
+    width: 300px;
+    height: 200px;
+    background: repeating-linear-gradient(to right, #0000FF, #00FF00 10%, #800080 20%);
+}
+
+
+/* Radial Gradient */
+
+.radial-gradient {
+    width: 300px;
+    height: 200px;
+    background: radial-gradient(circle at center, #008080, #000080);
+}
+
+
+/* Repeating Radial Gradient */
+
+.repeating-radial-gradient {
+    width: 300px;
+    height: 200px;
+    background: repeating-radial-gradient(circle at center, #FFC0CB, #E6E6FA 20%, #FFFFFF 40%);
+}
+
+
+/* Conic Gradient */
+
+.conic-gradient {
+    width: 300px;
+    height: 200px;
+    background: conic-gradient(from 180deg, #000000, #FFFFFF);
+}
+
+
+/* Repeating Conic Gradient */
+
+.repeating-conic-gradient {
+    width: 300px;
+    height: 200px;
+    background: repeating-conic-gradient(from 180deg, #808080 0%, #FFFFFF 25%, #000000 50%);
+}

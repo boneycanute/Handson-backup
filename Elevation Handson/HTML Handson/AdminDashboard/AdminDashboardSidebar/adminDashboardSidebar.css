@@ -1,0 +1,70 @@
+.AdminDashboardSidebar {
+    display: grid;
+    grid-template-columns: 16% 84%;
+    height: 100%;
+    position: relative;
+}
+
+.AdminDashboardSidebar__main {
+    background: #FFFFFF 0% 0% no-repeat;
+    box-shadow: 0px 3px 6px #00000029;
+    height: 91vh;
+    width: 212px;
+}
+
+.AdminDashboardSidebar__main-link {
+    min-height: 50px;
+    color: #050038;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    column-gap: 6px;
+    padding: 8% 0 8% 10%;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.AdminDashboardSidebar__main-sublinks {
+    width: 130px;
+    margin: 14px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.AdminDashboardSidebar__main-sublink {
+    color: #050038;
+    font-size: 15px;
+    border-left: 2px solid #b7bde9;
+    padding-bottom: 12px;
+    padding-top: 8px;
+    padding-left: 12px;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.AdminDashboardSidebar__main-sublink-active {
+    font-weight: 900;
+    border-left: 2.5px solid #172cb5;
+}
+
+.AdminDashboardSidebar__main-sublink:hover {
+    font-weight: 900;
+    border-left: 2.5px solid #172cb5;
+}
+
+.AdminDashboardSidebar__main-link:hover {
+    background: #E9ECFF 0% 0% no-repeat;
+    border-right: 4px solid #3F53D9;
+    color: #3F53D9;
+}
+
+.AdminDashboardSidebar__main-link-active {
+    background: #E9ECFF 0% 0% no-repeat;
+    border-right: 4px solid #3F53D9;
+    color: #3F53D9;
+}
+
+.AdminDashboardSidebar__main-link-icon {
+    width: 25px;
+    height: 18px;
+}

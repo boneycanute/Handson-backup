@@ -1,0 +1,13 @@
+.courseFilter {
+    display: flex;
+    justify-content: space-between;
+    margin: 36px 0;
+}
+
+.courseFilter_search-icon {
+    width: 56px;
+    height: 40px;
+    background: #050038 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #49494929;
+    border-radius: 4px;
+}

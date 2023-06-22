@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "jest": "^29.4.2",
+    "jest-image-snapshot": "^6.1.0",
+    "jsdom": "^21.1.0",
+    "puppeteer": "^19.7.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage",
+    "result": "jest --json",
+    "result-output": "jest --json --outputFile=test-results.json"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^9.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0"
+  }
+}

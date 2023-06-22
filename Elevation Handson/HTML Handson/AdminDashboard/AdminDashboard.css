@@ -1,0 +1,26 @@
+.AdminDashboard-main {
+    display: flex;
+}
+
+.AdminDashboard-main_middle {
+    width: 100%;
+    margin: 36px;
+}
+
+.AdminDashboard-main_middle_tabs {
+    display: flex;
+}
+
+.AdminDashboard-main_middle_tabs-ongoing--courses,
+.AdminDashboard-main_middle_tabs-all--courses {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.AdminDashboard-main_middle_tabs-selected {
+    color: #3F53D9;
+    font-weight: bold;
+    border-bottom: 3px solid #3F53D9;
+}

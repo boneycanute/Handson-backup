@@ -1,0 +1,9 @@
+[
+    {
+      "start": 28,
+      "end": 30,
+      "language": "Node.js",
+      "code": "process.stdin.resume();\r\nprocess.stdin.setEncoding(\"utf8\");\r\nprocess.stdin.resume();\r\nprocess.stdin.setEncoding(\"utf-8\");\r\n\r\nlet inputString = \"\";\r\nlet currentLine = 0;\r\n\r\nprocess.stdin.on(\"data\", (inputStdin) => {\r\n  inputString += inputStdin;\r\n});\r\n\r\nprocess.stdin.on(\"end\", (_) => {\r\n  inputString = inputString\r\n    .trim()\r\n    .split(\"\\n\")\r\n    .map((string) => {\r\n      return string.trim();\r\n    });\r\n\r\n  main();\r\n});\r\n\r\nfunction readLine() {\r\n  return inputString[currentLine++];\r\n}\r\n\r\nfunction removeElement(arr){\r\n   \r\n}\r\n\r\nfunction main() {\r\n  var N = Number.parseInt(readLine());\r\n  var S = readLine();\r\n  var ans = removeElement(S);\r\n  let output=\"\";\r\n  for(let i=0;i<ans.length;i++){\r\n    output+=(ans[i]+\" \");\r\n  }\r\n  console.log(output);\r\n}\r\n"
+    }
+  ]
+  
