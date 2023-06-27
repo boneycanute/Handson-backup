@@ -1,8 +1,8 @@
-### Live Flex I
+## Live Flex I
 
 For the given HTML, write the CSS code as instructed below to make it appear the same as the resource link.
 
-#### Instructions:
+### Instructions:
 
 1. Body styles:
     - Set the margin and padding to zero.
@@ -34,11 +34,14 @@ For the given HTML, write the CSS code as instructed below to make it appear the
 
 Follow all the given instructions and pass all the tests to complete this project.
 
-#### Test cases:
+### Test cases:
+
 Below is the list of test cases your code will be tested on:
-- Check Body tag styles.
-- Check .flex class styles.
-- Check .child class styles.
-- Check #box1 styles.
-- Check #box2 styles.
-- Check #box3 styles.
+
+1. Body tag styles must contain all the specific styles.
+
+2. '.flex' class must have all the specified styles.
+3. '.child' class must have all the  specified styles.
+4. '#box1' must have all the specified styles.
+5. '#box2' must have all the specified styles.
+6. '#box3' must have all the specified styles.
