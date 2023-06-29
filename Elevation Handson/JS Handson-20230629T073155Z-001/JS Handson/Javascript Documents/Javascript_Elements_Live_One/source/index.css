@@ -1,0 +1,11 @@
+div > div > div {
+  background-color: rgb(163, 230, 252);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#child {
+  background-color: rgb(144, 238, 144);
+  padding: 20px;
+}
+

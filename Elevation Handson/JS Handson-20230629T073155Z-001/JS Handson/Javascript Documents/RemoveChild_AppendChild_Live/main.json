@@ -1,0 +1,4 @@
+{
+    "commandsForInitialSetup": ["sudo npm i"],
+    "commandsForExecution": ["sudo npm run result-output"]
+}

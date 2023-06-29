@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Manipulation Assignment</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <div>
+    <div>
+      <div>
+        <h2 id="title">Parent Element</h2>
+        <p>This is the parent element.</p>
+        <div id="child">
+          <h3>Child Element</h3>
+          <p>This is the child element.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button id="backgroundBtn" onCLick="colorChangeHandler()">Background Color</button>
+  <button id="colorBtn" onclick="childColorHandler()">Color</button>
+  <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+
+body {
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #container {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  button {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  button:last-child {
+    margin-right: 0;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button-container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .button-container button {
+    float: left;
+  }
+  
+  .buttons
+  {
+    display:flex;
+    justify-content: center;
+  }

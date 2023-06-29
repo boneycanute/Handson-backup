@@ -1,0 +1,36 @@
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+.image {
+  width: 300px;
+  height: 200px;
+  background-color: #f1f1f1;
+  transition: opacity 0.3s;
+}
+img{
+  width: 300px;
+  height: 200px;
+}
+body
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  margin:0px;
+  padding:0px;
+}
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}

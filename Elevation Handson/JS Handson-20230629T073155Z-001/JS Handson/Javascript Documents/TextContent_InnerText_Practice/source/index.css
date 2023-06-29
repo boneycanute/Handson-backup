@@ -1,0 +1,46 @@
+/* index.css */
+
+body {
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #555;
+    text-align: center;
+}
+
+button {
+    background-color: teal;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: teal;
+}
+
+.btns {
+    text-align: center;
+}
+
+pre {
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    text-decoration-line: underline;
+}

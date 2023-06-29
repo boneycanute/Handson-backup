@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Prepbytes</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Passionate about creating innovative web solutions.</p>
+            <a class="btn" id="homeBtn" onclick="submitChanges()">Get in touch</a>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>I am a web developer with expertise in front-end technologies. I love designing and building user-friendly interfaces that provide a great user experience.</p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 id="heading" onclick="textUnderline()">My Projects</h2>
+            <div class="project" id="project1">
+                <img src="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1178&q=80" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor augue eu lacus faucibus, ac rutrum dui ullamcorper.</p>
+            </div>
+            <div class="project">
+                <img src="https://images.unsplash.com/photo-1488229297570-58520851e868?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="Project 2">
+                <h3 id="project2Heading">Project 2</h3>
+                <p>Nulla a augue sed erat ultricies pulvinar. Vestibulum fringilla urna sed mauris cursus, in aliquam elit gravida.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+{
+    "commandsForInitialSetup": ["npm i"],
+    "commandsForExecution": ["npm run result-output"]
+}

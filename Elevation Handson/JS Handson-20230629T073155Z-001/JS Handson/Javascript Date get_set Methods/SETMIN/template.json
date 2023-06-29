@@ -1,0 +1,9 @@
+[
+    {
+      "start": 28,
+      "end": 30,
+      "language": "Node.js",
+      "code": "process.stdin.resume();\r\nprocess.stdin.setEncoding(\"utf8\");\r\nprocess.stdin.resume();\r\nprocess.stdin.setEncoding(\"utf-8\");\r\n\r\nlet inputString = \"\";\r\nlet currentLine = 0;\r\n\r\nprocess.stdin.on(\"data\", (inputStdin) => {\r\n  inputString += inputStdin;\r\n});\r\n\r\nprocess.stdin.on(\"end\", (_) => {\r\n  inputString = inputString\r\n    .trim()\r\n    .split(\"\\n\")\r\n    .map((string) => {\r\n      return string.trim();\r\n    });\r\n\r\n  main();\r\n});\r\n\r\nfunction readLine() {\r\n  return inputString[currentLine++];\r\n}\r\n\r\nfunction accessminutes(dateobj){\r\n   \r\n}\r\n\r\nfunction main() {\r\n  let year = Number.parseInt(readLine());\r\n  let month=Number.parseInt(readLine());\r\n  let date=Number.parseInt(readLine());\r\n  let dateobj=new Date(year,month,date);\r\n  var ans = accessminutes(dateobj);\r\n  console.log(ans);\r\n}"
+    }
+  ]
+  
