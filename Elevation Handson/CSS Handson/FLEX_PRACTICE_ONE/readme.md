@@ -1,8 +1,8 @@
-### Practice Flex IV
+## Practice Flex IV
 
 For the given HTML, write the CSS code as instructed below to make it appear the same as the resource link.
 
-#### Instructions:
+### Instructions:
 
 1. Body styles:
     - Set the margin and padding to zero.
@@ -57,14 +57,16 @@ For the given HTML, write the CSS code as instructed below to make it appear the
 
 Follow all the given instructions and pass all the tests to complete this project.
 
-#### Test cases:
+### Test cases:
+
 Below is the list of test cases your code will be tested on:
-- Check the Body tag styles.
-- Check the #horizontal-nav styles.
-- Check the #horizontal-nav ul styles.
-- Check the #horizontal-nav ul li styles.
-- Check the #horizontal-nav ul li a styles.
-- Check the #vertical-nav styles.
-- Check the #vertical-nav ul styles.
-- Check the #vertical-nav ul li styles.
-- Check the #vertical-nav ul li a styles.
+
+1. Check the Body tag styles.
+2. Check the #horizontal-nav styles.
+3. Check the #horizontal-nav ul styles.
+4. Check the #horizontal-nav ul li styles.
+5. Check the #horizontal-nav ul li a styles.
+6. Check the #vertical-nav styles.
+7. Check the #vertical-nav ul styles.
+8. Check the #vertical-nav ul li styles.
+9. Check the #vertical-nav ul li a styles.

@@ -1,8 +1,8 @@
-### Text Formatting Practice Handson
+## Text Formatting Practice Handson
 
 Create a webpage using the text-formatting properties like text-decoration, letter-spacing, text-intent and text-shadow.
 
-#### Instructions
+### Instructions
 
 1. Create #h1 selector, set color to purple, text-align to center and text shadow to '2px 2px red'
 2. Create #div1 selector, set letter-spacing to 2px and text-indent to 100px
@@ -13,13 +13,13 @@ Create a webpage using the text-formatting properties like text-decoration, lett
 
 Follow all the given instructions and pass all the tests to complete this project.
 
-#### Testcases
+### Testcases
 
 Below is the list of test cases your code will be tested on:
 
-1. The `h1` selector should have color with value 'purple', text-align with value 'center' and text-shadow with value '2px 2px red'
-2. The `div1` selector should have letter-spacing with value '2px' and text-indent with value '100px'
-3. The `h2` selector should have color with value 'crimson' and text-align with value 'center'
-4. The `div2` selector should have letter-spacing with value '2px' and text-decoration with value 'line-through'
-5. The `h3` selector should have color with value 'darksalmon' and text-align with value 'center'
-6. The `div3` selector should have letter-spacing with value '2px' and background-color with value 'cyan'
+1. The 'h1' selector should have color with value 'purple', text-align with value 'center' and text-shadow with value '2px 2px red'
+2. The 'div1' selector should have letter-spacing with value '2px' and text-indent with value '100px'
+3. The 'h2' selector should have color with value 'crimson' and text-align with value 'center'
+4. The 'div2' selector should have letter-spacing with value '2px' and text-decoration with value 'line-through'
+5. The 'h3' selector should have color with value 'darksalmon' and text-align with value 'center'
+6. The 'div3' selector should have letter-spacing with value '2px' and background-color with value 'cyan'

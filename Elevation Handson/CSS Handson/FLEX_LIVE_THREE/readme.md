@@ -1,8 +1,9 @@
-### Live Flex III
+## Live Flex III
 
 For the given HTML, write the CSS code as instructed below to make it appear the same as the resource link.
 
 ### Instructions:
+
 1. Body styles:
    - Set the margin and padding to zero.
 
@@ -46,20 +47,20 @@ For the given HTML, write the CSS code as instructed below to make it appear the
 
 Follow all the given instructions and pass all the tests to complete this project.
 
-#### Test cases:
+### Test cases:
 Below is the list of test cases your code will be tested on:
-- Check the body tag styles.
-- Check the ".flex" class styles.
-- Check the ".box" class styles.
-- Check the "#box1" styles.
-- Check the "#box2" styles.
-- Check the "#box3" styles.
-- Check the "#box4" styles.
-- Check the "#box5" styles.
-- Check the "#box6" styles.
-- Check the "#box7" styles.
-- Check the "#box8" styles.
-- Check the "#box9" styles.
-- Check the ".flexA" class styles.
-- Check the ".boxA" class styles.
-- Check the divs in "flexA" styles.
+1. Check the body tag styles.
+2. Check the ".flex" class styles.
+3. Check the ".box" class styles.
+4. Check the "#box1" styles.
+5. Check the "#box2" styles.
+6. Check the "#box3" styles.
+7. Check the "#box4" styles.
+8. Check the "#box5" styles.
+9. Check the "#box6" styles.
+10. Check the "#box7" styles.
+11. Check the "#box8" styles.
+12. Check the "#box9" styles.
+13. Check the ".flexA" class styles.
+14. Check the ".boxA" class styles.
+15. Check the divs in "flexA" styles.

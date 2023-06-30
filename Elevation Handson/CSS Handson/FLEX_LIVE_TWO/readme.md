@@ -1,7 +1,8 @@
-### Live Flex II
+## Live Flex II
+
 For the given HTML, write the CSS code in the same way as instructed and make it appear the same as the resource link.
 
-#### Instructions:
+### Instructions:
 
 1. Body styles:
     - Set margin and padding to zero.
@@ -28,9 +29,11 @@ For the given HTML, write the CSS code in the same way as instructed and make it
 
 Follow all the given instructions and pass all the tests to complete this project.
 
-#### Testcases:
+### Testcases:
+
 Below is the list of test cases your code will be tested on:
-- Check Body tag styles.
-- Check .flex class styles.
-- Check .option class styles.
-- Check .content class styles.
+
+1. Check Body tag styles.
+2. Check .flex class styles.
+3. Check .option class styles.
+4. Check .content class styles.

@@ -1,4 +1,5 @@
-### Live Shadow II
+## Live Shadow II
+
 For the given HTML, write the CSS code in the same way as instructed to make it appear the same as the resource link.
 
 ### Instructions 
@@ -27,9 +28,10 @@ For the given HTML, write the CSS code in the same way as instructed to make it 
 
 Follow all the given instructions and pass all the tests to complete this project.
 
-#### Testcases:
+### Testcases:
+
 Below is the list of test cases your code will be tested on:
-- Check the body tag styles.
-- Check the h1 styles.
-- Check the ".text-container" class styles.
-- Check the ".box" class styles.
+1. The body tag should have all the specified styles.
+2. The h1 should have all the specified styles.
+3. The ".text-container" class should have all the specified styles.
+4. The ".box" class should have all the specified styles.

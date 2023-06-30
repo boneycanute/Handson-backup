@@ -1,8 +1,8 @@
-### List Styles Live Handson
+## List Styles Live Handson
 
 Create a webpage using the list style properties like list-style-image, list-style-type, list-style-position using the given set of instructions.
 
-#### Instructions:-
+### Instructions:-
 
 1. Create a body selector, set font-family to 'Verdana, Geneva, Tahoma, sans-serif'
 2. Create a ul selector, set list-style-type to 'square' and color to 'rgb(251, 131, 111)'
@@ -13,13 +13,13 @@ Create a webpage using the list style properties like list-style-image, list-sty
 
 Follow all the given instructions and pass all the tests to complete this project.
 
-#### Testcases
+### Testcases
 
 Below is the list of test cases your code will be tested on:
 
-1. The `body` selector should have font-family with value 'Verdana, Geneva, Tahoma, sans-serif'
-2. The `ul` selector should have list-style-type with value 'square', color with value 'rgb(251, 131, 111)'
-3. The `image-list` selector should have color with value 'rgb(16, 188, 226)', list-style-image with value 'linear-gradient(to left bottom, rgb(255, 0, 0), rgb(0, 0, 255))'
-4. The `position-list` selector should have list-style-position with value 'inside'
-5. The `h1` selector should have color with value 'rgb(126, 84, 159)'
-6. The `h2` selector should have color with value 'rgb(193, 84, 156)'
+1. The 'body' selector should have font-family with value 'Verdana, Geneva, Tahoma, sans-serif'
+2. The 'ul' selector should have list-style-type with value 'square', color with value 'rgb(251, 131, 111)'
+3. The 'image-list' selector should have color with value 'rgb(16, 188, 226)', list-style-image with value 'linear-gradient(to left bottom, rgb(255, 0, 0), rgb(0, 0, 255))'
+4. The 'position-list' selector should have list-style-position with value 'inside'
+5. The 'h1' selector should have color with value 'rgb(126, 84, 159)'
+6. The 'h2' selector should have color with value 'rgb(193, 84, 156)'
