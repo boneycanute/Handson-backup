@@ -1,4 +1,4 @@
-## Pseudo Selectos III
+## Pseudo Selectors III
 
 For the give html write the css code, also do it in same way as told in the instructions and make it appear same as the resource link
 
